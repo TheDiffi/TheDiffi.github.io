@@ -6,9 +6,9 @@ Released for free under the Creative Commons Attribution License
 */
 
 body {
-	margin-top: 50px;
+	margin: 50px 0 0 0;
 	padding: 0;
-	background: #1F0303;
+	background: #1c2c23;
 	font-size: 12px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: justify;
@@ -89,10 +89,13 @@ input, textarea, select {
 }
 
 #banner {
-	width: 800px;
-	margin: 0 auto;
-	background: url(images/img02.jpg) no-repeat left top;
-	height: 230px;
+	
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+#banner img {
+	height: 50vh;
+	width: auto;
 }
 
 /* Header */
@@ -137,12 +140,12 @@ input, textarea, select {
 }
 
 #menu a:hover { 
-	background: #AA330F url(images/img04.gif) repeat-x;
+	background: #0faa40 url(images/img04.gif) repeat-x;
 	color: #FFFFFF;
 }
 
 #menu .current_page_item a {
-	background: #AA330F url(images/img04.gif) repeat-x;
+	background: #0faa40 url(images/img04.gif) repeat-x;
 	color: #000000;
 }
 
@@ -179,7 +182,7 @@ input, textarea, select {
 	padding-left: 15px;
 	padding-top: 10px;
 	font: 18px Georgia, "Times New Roman", Times, serif;
-	color: #897B7B; 
+	color: #7b897e; 
 }
 
 #logo p a {
@@ -197,7 +200,7 @@ input, textarea, select {
 	width: 740px;
 	margin: 0 auto;
 	padding: 20px 30px 0px 30px;
-	background: #2A0F0F;
+	background: #0f2a1f;
 }
 
 /* Content */
@@ -219,7 +222,7 @@ input, textarea, select {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
 	padding-left: 10px;
-	border-left: 8px solid #B8120B;
+	border-left: 8px solid #0bb842;
 }
 
 .post h1 {
@@ -308,7 +311,7 @@ input, textarea, select {
 	width: 250px;
 	margin-bottom: 10px;
 	padding-left: 10px;
-	border-left: 8px solid #B8120B;
+	border-left: 8px solid #5cb80b;
 	font-size: 20px;
 	color: #FFFFFF;
 }
