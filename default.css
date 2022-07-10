@@ -1,4 +1,3 @@
-
 /*
 Design by TEMPLATED
 http://templated.co
@@ -6,21 +5,29 @@ Released for free under the Creative Commons Attribution License
 */
 
 body {
+	background-image: url("../assets/bg.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
 	margin: 50px 0 0 0;
 	padding: 0;
 	background: #1c2c23;
 	font-size: 12px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: justify;
-	color: #FFFFFF;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	margin: 0;
 	padding: 0;
 	text-transform: lowercase;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 h1 {
@@ -32,23 +39,26 @@ h2 {
 	font-size: 23px;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
 	margin: 0 0 1em 0;
 	text-align: justify;
 	line-height: 26px;
 }
 
 a:link {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 a:visited {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 img {
@@ -82,14 +92,15 @@ legend {
 	display: none;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	color: #333333;
 }
 
 #banner {
-	
 	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
 }
@@ -136,12 +147,12 @@ input, textarea, select {
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
-#menu a:hover { 
+#menu a:hover {
 	background: #0faa40 url(images/img04.gif) repeat-x;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 #menu .current_page_item a {
@@ -158,7 +169,8 @@ input, textarea, select {
 	padding: 20px 0 0 30px;
 }
 
-#logo h1, #logo h2 {
+#logo h1,
+#logo h2 {
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -172,27 +184,29 @@ input, textarea, select {
 
 #logo h1 a {
 	text-decoration: none;
-	color: #FFFFFF; 
+	color: #ffffff;
 }
 
-#logo h1 a:hover { text-decoration: underline; }
+#logo h1 a:hover {
+	text-decoration: underline;
+}
 
 #logo h2 {
 	float: left;
 	padding-left: 15px;
 	padding-top: 10px;
 	font: 18px Georgia, "Times New Roman", Times, serif;
-	color: #7b897e; 
+	color: #7b897e;
 }
 
 #logo p a {
 	text-decoration: none;
-	color: #8BD80E;
+	color: #8bd80e;
 }
 
-#logo p a:hover { text-decoration: underline; }
-
-
+#logo p a:hover {
+	text-decoration: underline;
+}
 
 /* Page */
 
@@ -208,7 +222,6 @@ input, textarea, select {
 #content {
 	float: left;
 	width: 470px;
-	
 }
 
 /* Post */
@@ -228,13 +241,13 @@ input, textarea, select {
 .post h1 {
 	padding: 0px 0 0 0px;
 	font-size: 24px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .post h2 {
 	padding: 0px 0 0 0px;
 	font-size: 22px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .post .entry {
@@ -248,21 +261,20 @@ input, textarea, select {
 	margin: 0;
 	padding-top: 15px;
 	line-height: normal;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .post .meta .links {
 	float: left;
-
 }
 .post .byline {
-	border-left: 8px solid #B8120B;
+	border-left: 8px solid #b8120b;
 	margin-top: -20px;
 	padding-left: 10px;
 	padding-bottom: 5px;
 	margin-bottom: 20px;
 	font-size: 10px;
-	color: #897B7B;
+	color: #897b7b;
 }
 
 .post .meta .links {
@@ -278,7 +290,6 @@ input, textarea, select {
 .post .meta b {
 	display: none;
 }
-
 
 /* Sidebar */
 
@@ -313,13 +324,12 @@ input, textarea, select {
 	padding-left: 10px;
 	border-left: 8px solid #5cb80b;
 	font-size: 20px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 /* Search */
 
 #search {
-
 }
 
 #search h2 {
@@ -343,13 +353,13 @@ input, textarea, select {
 }
 
 .box2 {
-	color: #BABABA;
+	color: #bababa;
 }
 
 .box2 h2 {
 	margin-bottom: 15px;
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .box2 ul {
@@ -358,8 +368,11 @@ input, textarea, select {
 	list-style: none;
 }
 
-.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
-	color: #EDEDED;
+.box2 a:link,
+.box2 a:hover,
+.box2 a:active,
+.box2 a:visited {
+	color: #ededed;
 }
 
 /* Footer */
@@ -373,7 +386,7 @@ input, textarea, select {
 	background: url(images/img03.gif) no-repeat;
 }
 
-html>body #footer {
+html > body #footer {
 	height: auto;
 }
 
@@ -384,10 +397,10 @@ html>body #footer {
 #legal {
 	clear: both;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 #legal a {
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #ffffff;
 }
