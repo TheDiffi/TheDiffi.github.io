@@ -115,7 +115,7 @@ select {
 	width: 800px;
 	margin: 0 auto;
 	height: 50px;
-	background: url(images/img01.gif) no-repeat left top;
+	background: url(assets/img01.gif) no-repeat left top;
 }
 
 /* Menu */
@@ -124,7 +124,7 @@ select {
 	float: left;
 	width: 800px;
 	height: 50px;
-	background: url(images/img03.gif) no-repeat left top;
+	background: url(assets/img03.gif) no-repeat left top;
 }
 
 #menu ul {
@@ -151,12 +151,12 @@ select {
 }
 
 #menu a:hover {
-	background: #0faa40 url(images/img04.gif) repeat-x;
+	background: #e342c8 url(assets/img04.gif) repeat-x;
 	color: #ffffff;
 }
 
 #menu .current_page_item a {
-	background: #0faa40 url(images/img04.gif) repeat-x;
+	background: #e342c8 url(assets/img04.gif) repeat-x;
 	color: #000000;
 }
 
@@ -380,7 +380,7 @@ select {
 	width: 800px;
 	margin: 0 auto;
 	padding: 10px 0 10px 0;
-	background: url(images/img03.gif) no-repeat;
+	background: url(assets/img03.gif) no-repeat;
 }
 
 html > body #footer {
