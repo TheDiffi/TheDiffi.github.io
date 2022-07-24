@@ -1,8 +1,15 @@
 
 window.onload = function(){
-	if(mobileCheck() && parseLocation(window.location) == "index.html"){
+	//always go to index.html even if url is empty
+	if( parseLocation(window.location) == "") window.location.href = "index.html"
+
+	// check if you are on pc site but using mobile
+	if(parseLocation(window.location) == "index.html" && mobileCheck()){
+		console.log("Youre on mobile");
+		// redirect
 		window.location.href = "mobile.html"
 	} else{
+		// if youre on mobile site but on pc redirect
 		if(parseLocation(window.location) == "mobile.html" && !mobileCheck()){
 			window.location.href = "index.html";
 		}
